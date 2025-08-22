@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <title>Kokoro's Portfolio</title>
+    <meta name="description" content="明石高専機械工学科 中島こころのポートフォリオサイト" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta name="keywords" content="ポートフォリオ" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="format-detection" content="telephone=no" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link href="https://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script src="./assets/js/script.js"></script>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__inner">
+          <div class="header__logo">
+            <a href="#" class="header__logo__link">My Portfolio</a>
+          </div>
+          <nav class="header__menu">
+            <ul class="header__list">
+              <li class="header__item">
+                <a href="#about" class="header__link">About me</a>
+              </li>
+              <li class="header__item">
+                <a href="#club" class="header__link">Club Activity</a>
+              </li>
+              <li class="header__item">
+                <a href="#hobby" class="header__link">Hobby</a>
+              </li>
+              <li class="header__item">
+                <a href="#spots" class="header__link">Favorite Spots</a>
+              </li>
+              <li class="header__item">
+                <a href="#other" class="header__link">Other</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <main class="main">
+        <div class="main__inner">
+          <section class="top" id="top">
+            <div class="top__heading">
+              <h1 class="top__title">My Portfolio</h1>
+            </div>
+            <p class="top__scroll">
+              <div class="top__scroll-bar"><span>scroll</span></div>
+            </p>
+          </section>
+
+          <section class="about" id="about">
+            <div class="c-inner-lv1">
+              <h2 class="c-heading-lv1 js-fadein">About Me</h2>
+              <div class="container">
+                <div class="row">
+                  <div class="about__img col-sm-5 js-fadein">
+                    <img src="atsumori-cocoro-tenmon.png" alt="ほんわかこころ" />
+                    <h3 class="about__name">Nakashima Kokoro</h3>
+                  </div>
+                  <div class="about__prof col-sm-7 js-fadein">
+                    <p class="about__info">
+                      明石工業高等専門学校 機械工学科（２４ｓ）<br />
+                      <br />
+                      ２００９年１月１９日生まれ、兵庫県明石市出身、三姉妹の長女です。<br />
+                      <br />
+                      機械工学科では機械加工学や設計製図、工作実習や機械工学実習などの実習もしています。<br />
+                      専門科目の中では、設計製図が特に好きです。<br />
+                      <br />
+                      好きな食べ物はオムライス、お寿司、果物（もも・ぶどう・いちご・さくらんぼ）や海鮮（いくら・牡蠣・ほたて）です。<br />
+                      <br />
+                      これまでに書道、水泳、ピアノ、体操、ダンスを習っていました。<br />
+                      書道は、小学１年生から現在まで続けています。<br />
+                      高専に入ってから合唱部に所属していて、歌うことが好きです。<br />
+                      <div class="instagram-page">
+                        <i class="fas fa-link"></i>
+                        <a href="https://www.instagram.com/silphium.si3/" target="_blank">Instagram</a>
+                      </div>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="club" id="club">
+            <div class="c-inner-lv1">
+              <h2 class="c-heading-lv1 js-fadein">Club Activity</h2>
+              <div class="container club__container js-fadein">
+                <ul class="row">
+                  <li class="club__item col-md-3">
+                    <div id="popup-btn1" class="club__block">
+                        <div id="popup1" class="popup">
+                        <div class="popup-content">
+                          <p>学生会執行部 会計局</p>
+                          <p>学生会では明葉祭（文化祭）やスポーツ大会の運営、会計局では伝票処理などをしています。２年生では副局長をしています。</p>
+                        </div>
+                        </div>
+                        <div class="club__circle">
+                            <div class="club__circle-inner">
+                                <div class="club__icon">
+                                    <img
+                                    src="gakuseikai-icon.png"
+                                    alt="明石高専学生会のアイコン"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <h3 class="club__name">学生会 会計局</h3>
+                    </div>
+                  </li>
+                  <li class="club__item col-md-3">
+                    <div id="popup-btn2" class="club__block">
+                        <div id="popup2" class="popup">
+                        <div class="popup-content">
+                          <p>明石高専合唱団 Fons Musicae</p>
+                          <p>花や赤とんぼなどの童謡、Ave MariaやKyrieといったラテン語の曲、Greetingsやおんがくなど合唱曲もうたいます♪</p>
+                        </div>
+                        </div>
+                        <div class="club__circle">
+                            <div class="club__circle-inner">
+                                <div class="club__icon">
+                                    <img
+                                    src="https://yt3.googleusercontent.com/isw5baQp2_ETjqeaZx4IzPNTqh0qm0omnmkV5fAdMHjl80YCDhmuTXXBD3KgeaXrmxXOxOTBSQ=s900-c-k-c0x00ffffff-no-rj"
+                                    alt="合唱部のアイコン"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <h3 class="club__name">合唱部</h3>
+                    </div>
+                  </li>
+                  <li class="club__item col-md-3">
+                    <div id="popup-btn3" class="club__block">
+                        <div id="popup3" class="popup">
+                        <div class="popup-content">
+                          <p>Web制作研究部</p>
+                          <p>HTML&CSSの勉強をして、webサイトを作ります。主に学校行事の明葉祭やスポーツ大会、高専祭のホームページを制作します。</p>
+                        </div>
+                        </div>
+                        <div class="club__circle">
+                            <div class="club__circle-inner">
+                                <div class="club__icon">
+                                    <img
+                                    src="https://th.bing.com/th/id/OIP.GsWICeIzjkXtJzpjPgN8qQAAAA?w=165&h=180&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3"
+                                    alt="Web研のアイコン"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <h3 class="club__name">Web研</h3>
+                    </div>
+                  </li>
+                  <li class="club__item col-md-3">
+                    <div id="popup-btn4" class="club__block">
+                        <div id="popup4" class="popup">
+                        <div class="popup-content">
+                          <p>ESS(English Speaking Society)</p>
+                          <p>部のメンバーや留学生と一緒に英語を使って会話をしたり、ゲームをしたりします。１年生の時には高専祭のバザーでベビーカステラを作りました。</p>
+                        </div>
+                        </div>
+                        <div class="club__circle">
+                            <div class="club__circle-inner">
+                                <div class="club__icon">
+                                    <img
+                                    src="ess_icon.jpg"
+                                    alt="ESSのアイコン"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <h3 class="club__name">ESS</h3>
+                    </div>
+                  </li>
+                  <li class="club__item col-md-3">
+                    <div id="popup-btn5" class="club__block">
+                        <div id="popup5" class="popup">
+                        <div class="popup-content">
+                          <p>SA(Student Ambassador)</p>
+                          <p>明石高専に来る、たくさんの留学生と色々なイベントを企画して仲良くなります。書道イベントや浴衣イベント、茶道イベントなどがあります。</p>
+                        </div>
+                        </div>
+                        <div class="club__circle">
+                            <div class="club__circle-inner">
+                                <div class="club__icon">
+                                    <img
+                                    src="sa_icon.jpg"
+                                    alt="SAのアイコン"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <h3 class="club__name">SA</h3>
+                    </div>
+                  </li>
+                  <li class="club__item col-md-3">
+                    <div id="popup-btn6" class="club__block">
+                        <div id="popup6" class="popup">
+                        <div class="popup-content">
+                          <p>明石市立天文科学館ボランティア</p>
+                          <p>展示解説担当や子どもたちと遊ぶキッズルーム担当があります。また、ほしとも学生部というサークルにも参加しています。</p>
+                        </div>
+                        </div>
+                        <div class="club__circle">
+                            <div class="club__circle-inner">
+                                <div class="club__icon">
+                                    <img
+                                    src="tenmonkagakukan.png"
+                                    alt="天文科学館の写真"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <h3 class="club__name">天ボラ</h3>
+                    </div>
+                  </li>
+                  <li class="club__item col-md-3">
+                    <div id="popup-btn7" class="club__block">
+                        <div id="popup7" class="popup">
+                        <div class="popup-content">
+                          <p>書道</p>
+                          <p>小さい頃から字を書くことが好きです。中学校では、生徒会で書記会計をしていました。お便りを作るのが楽しかったです。</p>
+                        </div>
+                        </div>
+                        <div class="club__circle">
+                            <div class="club__circle-inner">
+                                <div class="club__icon">
+                                    <img
+                                    src="shodo.jpg"
+                                    alt="習字の写真（力戦奮闘）"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <h3 class="club__name">書道</h3>
+                    </div>
+                  </li>
+                  <li class="club__item col-md-3">
+                    <div id="popup-btn8" class="club__block">
+                        <div id="popup8" class="popup">
+                        <div class="popup-content">
+                          <p>情報科学部 植物班</p>
+                          <p>中学校では情報科学部に所属していました。班ごとに、植物、魚類、両生類、甲殻類など生物を育てていました。温かい部活ですごく楽しかったです。</p>
+                        </div>
+                        </div>
+                        <div class="club__circle">
+                            <div class="club__circle-inner">
+                                <div class="club__icon">
+                                    <img
+                                    src="johokagaku.png"
+                                    alt="数学理科甲子園ジュニア イメージキャラクター"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <h3 class="club__name">情報科学部</h3>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+
+          <section class="hobby" id="hobby">
+            <div class="c-inner-lv1">
+              <h2 class="c-heading-lv1 js-fadein">Hobby</h2>
+              <div class="container">
+                <div class="row hobby__row">
+                  <div class="col-md-3 hobby__block js-fadein--queue">
+                    <h3 class="hobby__title">カードゲーム・ボードゲーム</h3>
+                    <div class="hobby__icon-box">
+                      <img src="toranpu_icon.png" alt="トランプのアイコン" class="hobby__icon">
+                    </div>
+                    <div class="hobby__box">
+                      <p class="hobby__txt">
+                        ２人で遊ぶときのおすすめはクアルト、３～４人の場合はAlgoやDr.EUREKA、５人ならナポレオン（トランプのゲーム）、大人数ならナンジャモンジャや人狼ゲーム。<br />
+                        メンバーが集まった時には、マーダーミステリーも盛り上がります。<br />
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-md-3 hobby__block js-fadein--queue">
+                    <h3 class="hobby__title">ノートまとめ</h3>
+                    <div class="hobby__icon-box">
+                      <img src="note_icon.png" alt="ノートのアイコン" class="hobby__icon">
+                    </div>
+                    <div class="hobby__box">
+                      <p class="hobby__txt">
+                        色んな文房具を使ってノートにまとめるのが好きです。<br />
+                        テスト前に自分が理解しやすいように自分の言葉でコメントを書いています。<br />
+                        授業ノートだけでなく、テスト前には暗記したいことを別のノートにまとめることもあります。<br />
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-md-3 hobby__block js-fadein--queue">
+                    <h3 class="hobby__title">ゲーム・アニメ</h3>
+                    <div class="hobby__icon-box">
+                      <img src="game_icon.png" alt="ゲームのアイコン" class="hobby__icon">
+                    </div>
+                    <div class="hobby__box">
+                      <p class="hobby__txt">
+                        Nintendo Switchでよく妹やいとこと遊びます。特にSplatoonが好きです。<br />
+                        アニメは、スポーツものや転生ものが好きですが、いろいろ見てます。<br />
+                        <br />
+                        P.S. Nintendo Switchのマリオカートセットが当たってとっても嬉しいです！
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="spots" id="spots">
+            <div class="c-inner-lv1 spots__inner">
+              <h2 class="c-heading-lv1 js-fadein">Favorite Spots</h2>
+              <div class="container">
+                <div class="row spots__row">
+                  <a href="https://www.takeharakankou.jp/spot/4304" class="spots__link col-md-4 js-fadein--queue">
+                    <p class="spots__img">
+                      <img src="ookunoshima-usagi.jpeg" alt="うさぎの写真" />
+                    </p>
+                    <div class="spots__box">
+                      <h3 class="spots__title">
+                        うさぎ島<br class="u-hidden-pc" /><span
+                          class="spots__title--sub"
+                          >（広島県 竹原市）</span
+                        >
+                      </h3>
+                      <p class="spots__url">https://www.takeharakankou.jp/spot/4304</p>
+                      <div class="spots__genre"><span class="spots__genre--animal">Animal</span></div>
+                      <p class="spots__txt">
+                        たくさんのうさぎに会える島。島までは船に乗って行きました。時期によっては子ウサギがたくさんいて、餌を食べるところがとてもかわいいです。（２０２５年２月２２日）
+                      </p>
+                    </div>
+                  </a>
+                  <a
+                  href="https://www.okayama-kanko.jp/spot/11439"
+                  class="spots__link col-md-4 js-fadein--queue"
+                  target="_blank"
+                >
+                  <p class="spots__img">
+                    <img src="hiruzen.jpg" alt="蒜山高原センターの写真" />
+                  </p>
+                  <div class="spots__box">
+                    <h3 class="spots__title">
+                      蒜山<br class="u-hidden-pc" /><span
+                          class="spots__title--sub"
+                          >（岡山県 真庭市）</span
+                        >
+                    </h3>
+                    <p class="spots__url">https://www.okayama-kanko.jp/spot/11439</p>
+                    <div class="spots__genre"><span class="spots__genre--nature">Nature</span><span class="spots__genre--sightseeing">Sightseeing</span></div>
+                    <p class="spots__txt">
+                      夏は塩釜冷泉の釣り堀で魚釣り、秋はホースパークで乗馬、冬はベアバレーでスキー、そしていつでも楽しいジョイフルパーク～！その前の「すいとんぼう」というお店の蒜山焼そばがおいしいです（１０回以上）<br />
+                    </p>
+                  </div>
+                </a>
+                  <a
+                    href="https://goto.nagasaki-tabinet.com/"
+                    class="spots__link col-md-4 js-fadein--queue"
+                    target="_blank"
+                  >
+                    <p class="spots__img">
+                      <img src="goto-umi.jpg" alt="五島列島の海" />
+                    </p>
+                    <div class="spots__box">
+                      <h3 class="spots__title">
+                        五島列島<br class="u-hidden-pc" /><span
+                          class="spots__title--sub"
+                          >（長崎県 五島市）</span
+                        >
+                      </h3>
+                      <p class="spots__url">https://goto.nagasaki-tabinet.com/</p>
+                      <div class="spots__genre"><span class="spots__genre--sea">Sea</span><span class="spots__genre--lighthouse">Lighthouse</span></div>
+                      <p class="spots__txt">
+                        福江島の頓泊海水浴場。海がとてもきれいでした。鬼面台からの景色も美しかったです。夜には天文台から満天の星空を見ました。（２０２２年８月）<br />
+                      </p>
+                    </div>
+                  </a>
+                  <a
+                    href="https://www.harmonyland.jp/"
+                    class="spots__link col-md-4 js-fadein--queue"
+                    target="_blank"
+                  >
+                    <p class="spots__img">
+                      <img src="sanlio.jpg" alt="ハーモニーランドの写真" />
+                    </p>
+                    <div class="spots__box">
+                      <h3 class="spots__title">
+                        ハーモニーランド<br class="u-hidden-pc" /><span
+                          class="spots__title--sub"
+                          >（大分県 速見郡 日出町）</span
+                        >
+                      </h3>
+                      <p class="spots__url">https://www.harmonyland.jp/</p>
+                      <div class="spots__genre"><span class="spots__genre--amusement_park">Amusement park</span></div>
+                      <p class="spots__txt">
+                        サンリオのキャラクターたちに会えるテーマパーク。ステージを見るのがすきです。いつもキャラクターのマグカップの中にプリンが入ったデザートを食べます。（３回ほど）<br />
+                      </p>
+                    </div>
+                  </a>
+
+                  <a
+                    href="https://www.gamf.jp/"
+                    class="spots__link col-md-4 js-fadein--queue"
+                    target="_blank"
+                  >
+                    <p class="spots__img">
+                      <img src="https://www.knt.co.jp/image/tottori_hokueicho_22_001-min.jpg" alt="青山剛昌ふるさと館の写真" />
+                    </p>
+                    <div class="spots__box">
+                      <h3 class="spots__title">
+                        青山剛昌ふるさと館<br class="u-hidden-pc" /><span
+                          class="spots__title--sub"
+                          >（鳥取県 北栄町）</span
+                        ></h3>
+                      <p class="spots__url">https://www.gamf.jp/</p>
+                      <div class="spots__genre"><span class="spots__genre--anime">Anime</span><span class="spots__genre--museum">Museum</span></div>
+                      <p class="spots__txt">
+                        いろいろな作品の原画がたくさんあって、１枚１枚じっくり見ているととても時間がかかりました。直筆のメッセージなど盛りだくさんで楽しかったです！（２０２２年８月）<br />
+                      </p>
+                    </div>
+                  </a>
+                  <a
+                    href="https://shingeki-hita.com/spot/017.html"
+                    class="spots__link col-md-4 js-fadein--queue"
+                    target="_blank"
+                  >
+                    <p class="spots__img">
+                      <img src="shingeki.jpg" alt="進撃の巨人ミュージアムの写真" />
+                    </p>
+                    <div class="spots__box">
+                      <h3 class="spots__title">進撃の巨人 in HITA ミュージアム
+                        <br class="u-hidden-pc" /><span
+                          class="spots__title--sub"
+                          >（大分県 日田市）</span
+                        ></h3>
+                      <p class="spots__url">https://shingeki-hita.com/spot/017.html</p>
+                      <div class="spots__genre"><span class="spots__genre--anime">Anime</span><span class="spots__genre--museum">Museum</span></div>
+                      <p class="spots__txt">
+                        巨大なパネルに迫力のある原画が展示してありました。場面ごとに先生のメッセージが書かれていて、世界観がさらに深まりました。ぜひ進撃の巨人を読んで（見て）訪れてみてください♪（２０２４年８月）<br />
+                      </p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="other" id="other">
+            <div class="c-inner-lv1">
+              <h2 class="c-heading-lv1 js-fadein">Other</h2>
+              <div class="container">
+                <p class="row text-center other__row js-fadein">
+                  Have a good day!!
+                </p>
+            </div>
+            <a href="https://www.instagram.com/silphium.si3/"
+            <div class="instagram-icon">
+              <img src="instagram-account.jpg" alt="Instagramのアイコン" />
+            </div>
+          </section>
+          </div>
+          </main>
+          <footer class="footer">
+            <div class="footer__inner container">
+              <p class="footer__cr">
+                © 2025 Nakashima Kokoro | Thank you for visiting!
+              </p>
+            </div>
+          </footer>
+    </div>
+  </body>
+</html>
